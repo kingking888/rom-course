@@ -37,10 +37,6 @@ GitHub 项目地址：[https://github.com/feicong/rom-course](https://github.com
 
 <img width="454" alt="image" src="https://github.com/user-attachments/assets/e1bdaf8f-a372-4a60-b9de-b3a7d2ec68d0" />
 
-## 知识星球
-
-![image](https://github.com/user-attachments/assets/7d86efac-fa5b-44ec-9869-6fc1ad8d94f8)
-
 ## 免责申明
 
 本书籍内容仅供学习和研究使用，所有资料均来源于公开的安全技术文献、开源项目及个人经验分享。对于任何由于本书内容产生的直接或间接损失，本书作者及发布方概不负责。请读者在实际操作中遵守法律法规，避免从事任何非法或不道德的行为。
