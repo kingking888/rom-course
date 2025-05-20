@@ -33,9 +33,10 @@ GitHub 项目地址：[https://github.com/feicong/rom-course](https://github.com
 
 > 微信添加**feicongcn**邀请入群。
 
-## 微信公众号
-
-<img width="454" alt="image" src="https://github.com/user-attachments/assets/e1bdaf8f-a372-4a60-b9de-b3a7d2ec68d0" />
+<div align="center" style="display: flex; justify-content: space-between; max-width: 1200px;">
+	<img src="https://github.com/user-attachments/assets/e1bdaf8f-a372-4a60-b9de-b3a7d2ec68d0" alt="微信公众号" width="60%" style="max-width: 600px;">
+ 	<img src="https://github.com/user-attachments/assets/e6eecc6b-2d42-4ecf-9380-605121c7dcc9" alt="知识星球" width="40%" style="max-width: 400px;">
+</div>
 
 ## 免责申明
 
