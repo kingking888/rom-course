@@ -158,7 +158,7 @@ keytool -genkeypair -alias myalias -keyalg RSA -keysize 2048 -validity 9125 -key
 
 ​	输入口令以及各项信息后，得到一个证书文件`mykeystore.keystore`。接下来可以编译此加固的项目了，将壳程序，以及加固程序编译出来，步骤如下。
 
-![image-20230326132620645](D:/git_src/android-rom-book/chapter-07/images/jiagu_liucheng.png)
+![image-20230326132620645](../chapter-07/images/jiagu_liucheng.png)
 
 ​	运行完成后，在项目的根目录下生成了一个`jiagu`的目录。将待保护的`app-debug.apk`，签名使用的证书拷贝到该目录中，然后添写加固的配置文件`keystore.cfg`，内容如下
 
@@ -315,7 +315,7 @@ adb install --no-incremental app-debug-over.apk
 
 ​	最后成功安装目标应用，并且能正常打开运行该应用。使用工具`jadx`解析保护后的`APP`，已经无法正常看到`MainActivity`类了。
 
-![image-20230325233226543](D:/git_src/android-rom-book/chapter-07/images/jiagu.png)
+![image-20230325233226543](../chapter-07/images/jiagu.png)
 
 
 ### 8.3.2 加固原理
@@ -980,7 +980,7 @@ D/k.myservicedem: [ROM] DefineClass write 2 /data/data/cn.rom.myservicedemo/defi
 
 最后将这个文件传到电脑中，使用反编译工具`jadx`打开看到脱壳后的结果。
 
-![image-20230328004256155](.\images\tuoke.png)
+![image-20230328004256155](images/tuoke.png)
 
 在这个自动脱壳的例子中，并不限于在哪个调用时机来对其保存到文件，只要是在加载过程中，能获取到`DexFile`结果的地方，大多数都是能拿到动态加载壳所保护的目标。当你不确定的情况，可以先加上打桩信息，然后逐步去排查来判断你使用的调用时机是否可用。
 
